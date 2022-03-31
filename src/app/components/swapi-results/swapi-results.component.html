@@ -1,0 +1,7 @@
+
+<div [ngStyle]="{ padding: '10px' }">
+  <app-swapi-character
+    *ngFor="let character of swapi.characters"
+    [characterName]="character"
+  ></app-swapi-character>
+</div>
